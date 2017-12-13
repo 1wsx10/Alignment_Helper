@@ -1,5 +1,10 @@
+// the names of the cockpit and LCD respectively
 public const string alignment_cockpit = "alignment cockpit";
 public const string alignment_lcd = "alignment lcd";
+
+
+// the character that separates the 2 GPS coordinates
+public const char GPS_delimiter = '&';
 
 
 
@@ -30,7 +35,7 @@ public void Main() {
 
 
 	// starting string manipulation
-	string[] gpsText = Me.CustomData.Split('&');
+	string[] gpsText = Me.CustomData.Split(GPS_delimiter);
 
 	if(gpsText.Count() != 2) {
 		Echo("GPS coordinates are wrong\nneed 2 GPS coordinates seperated by a '&'");
