@@ -1,11 +1,14 @@
+public const string alignment_cockpit = "alignment cockpit";
+public const string alignment_lcd = "alignment lcd";
+
+
+
+
+
 public Program() {
 	Runtime.UpdateFrequency = UpdateFrequency.Once;
 	setup();
 }
-
-
-public const string alignment_cockpit = "alignment cockpit";
-public const string alignment_lcd = "alignment lcd";
 
 public void Main() {
 
