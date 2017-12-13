@@ -17,6 +17,8 @@ public Program() {
 
 public void Main() {
 
+	System.Text.RegularExpressions myregex = new System.Text.RegularExpressions();
+
 	// testing blocks
 	if(controller == null || !controller.IsWorking) {
 		setup();

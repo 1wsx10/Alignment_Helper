@@ -18,6 +18,14 @@ alignment lcd
 ```
 You can change these by changing the text at the top of the program, this is case sensetive.
 
+## Usage
+
+You are trying to get the 'aligned' value as close to 1 as possible.
+
+I recommend turning your gyro power to something really low, then using the arrow keys for ultimate precision. I have been able to get the aligned value to 7 9s of precision... thats 0.9999999 (then some garbage numbers after all those 9s)
+
+take the 'diff' values with a grain of salt, they should help you align each axis individually... you *should* only have to worry about the X and Y, i'm pretty sure the Z value is meaningless.
+
 
 ## Just the tip
 
